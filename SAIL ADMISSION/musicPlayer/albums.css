@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.albumCon {
+    height: 100svh;
+    background-color: rgba(95, 170, 95);
+}
+
+.albumContainer {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 2rem;
+}
+
+.albumCards, .genreCards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.album1, .album2, .album3, .album4, .danceHits, .afrobeats, .hipHop, .gospel {
+    height: 22.5rem;
+    background-color: rgb(195, 236, 195);
+    width: 90%;
+    display: grid;
+    place-content: center;
+    gap: 1rem;
+    margin-top: 0.5rem;
+}
+
+h3, h4, h1 {
+    text-align: center;
+}
+
+
+
